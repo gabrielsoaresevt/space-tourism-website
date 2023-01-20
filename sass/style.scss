@@ -10,9 +10,16 @@
 
 // Components
 
+@import "./components/page-background-image";
+
 // Layout
 
+@import "./layout/_container";
+@import "./layout/_header";
+
 // Pages
+
+@import "./pages/_landing-page";
 
 // Vendors
 
