@@ -1,49 +1,69 @@
 .header {
-    margin-top: 4.2rem;
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center; 
+    margin-top: 4.0rem;
+    position: relative;
+    border: 2px solid green;
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 57%;
+        height: 100%;
+        z-index: -1;
+        backdrop-filter: blur(30px);
+        background-color: rgba(255,255,255,0.08);
+        top: 0;
+        bottom: 0;
+        right: 0;
     }
     &__logo {
-        padding-left: 42px;
-        display: block;
-        flex: 1 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 24px;
         img {
-            display: block;
             width: 48px;
             height: auto;
+            display: block;
+        }
+    }
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: stretch; 
+        height: 96px;
+        overflow: hidden;
+        position: relative;
+        padding-right: 140px;
+        transform: translateX(50px);
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 40%;
+            height: 1px;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            background-color: $color-menu-line;
         }
     }
     &__menu {
         display: flex;
         justify-content: center;
-        flex: 1.5 1;
-        height: 96px;
-        backdrop-filter: blur(25px);
         font-family: 'Barlow Condensed', sans-serif;
-        background-color: rgba(255,255,255,0.07);
         color: $color-tertiary;
         font-size: $font-size-nav;
         letter-spacing: 2.7px;
         text-transform: uppercase;
-        padding: 0 16px;
         position: relative;
-        &::after {
-            top: 50%;
-            left: -51%;
-            content: '';
-            display: block;
-            position: absolute;
-            height: 1px;
-            width: 55%;
-            background-color: $color-menu-line;
-        }
         &__list {
             display: flex;
             align-items: stretch;
             list-style-type: none;
-            gap: 70px;
+            gap: 48px;
             &__item {
                 cursor: pointer;
                 display: flex;  
