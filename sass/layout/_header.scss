@@ -1,0 +1,94 @@
+.header {
+    position: relative;
+    height: 96px;
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: stretch;
+
+        height: 100%;
+    }
+    height: 96px;
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 58vw;
+        height: 100%;
+        z-index: -1;
+        background-color: $color-background-header;
+        backdrop-filter: blur(35px);
+    }
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 33vw;
+        height: 1px;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    &__menu {
+        &__list {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            list-style-type: none;
+            gap: 48px;
+
+            height: 100%;
+            &__item {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                position: relative;
+                &.active {
+                    &:after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        width: 100%;
+                        height: 3px;
+                        bottom: 0;
+                        background-color: $color-tertiary;
+                    }
+                }
+                &:after {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    width: 100%;
+                    height: 3px;
+                    bottom: 0;
+                    background-color: none;
+                    transition: all 0.225s
+                }
+                &:hover::after {
+                    background-color: $color-hover;
+                }
+                a {
+                    font-weight: 400;
+                    font-size: $font-size-nav;
+                    font-family: 'Barlow Condensed', sans-serif;
+                    color: $color-tertiary;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    letter-spacing: 2.7px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 11px;
+                    span {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+body {
+    padding-top: 4.0rem;
+
+    display: grid;
+    grid-template-columns: 2fr 16fr;
+    grid-template-rows: 96px auto;
+    grid-template-areas: "logo header"
+    "logo main";
+    .logo {
+        grid-area: logo;
+    }
+    header {
+        grid-area: header;
+    }
+    main {
+        margin-top: 8vh; 
+        grid-area: main;
+    }
+}

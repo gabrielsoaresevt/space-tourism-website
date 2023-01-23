@@ -10,10 +10,12 @@
 
 // Components
 
-@import "./components/page-background-image";
+@import "./components/_page-background-image";
 
 // Layout
 
+@import "./layout/_logo";
+@import "./layout/_grid-page";
 @import "./layout/_container";
 @import "./layout/_header";
 
@@ -24,10 +26,6 @@
 // Vendors
 
 @import "./vendors/_normalize";
-
-
-
-
 
 
 //node-sass -w --output-style compressed sass/style.scss css/style.css
