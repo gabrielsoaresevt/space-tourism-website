@@ -1,72 +1,73 @@
-.main-content {
-    align-self: flex-end;
-    margin-bottom: 14vh;
-    .hero {
-        .container {
-            display: flex;
-            justify-content: space-between;
-        }
-        &__text {
-            &__subtitle {
-                font-family: 'Barlow Condensed', serif;
-                font-size: $font-size-heading-quinary;
-                font-weight: 400;
-                color: $color-secondary;
-                letter-spacing: 4.75px;
-                text-transform: uppercase;
-            }
-            &__title {
-                font-family: 'Bellefair', serif;
-                font-size: $font-size-heading-primary;
-                font-weight: 400;
-                color: $color-tertiary;
-                text-transform: uppercase;
-                margin: 24px 0;
-            }
-            &__paragraph {
-                line-height: 32px;
-                max-width: 444px;
-            }
-        }
-        &__explore {
-            align-self: flex-end;
-            button {
+#home-page {
+    .main-content {
+        .hero {
+            .container {
                 display: flex;
-                justify-content: center;
-                align-items: center;
-                outline: none;
-                background: none;
-                border: none;
-                width: 274px;
-                height: 274px;
-                background-color: $color-tertiary;
-                border-radius: 100%;
-                position: relative;
-                cursor: pointer;
-                &:after {
-                    content: '';
-                    display: block;
+                justify-content: space-between;
+            }
+            &__text {
+                &__subtitle {
+                    font-family: 'Barlow Condensed', serif;
+                    font-size: $font-size-heading-quinary;
+                    font-weight: 400;
+                    color: $color-secondary;
+                    letter-spacing: 4.75px;
+                    text-transform: uppercase;
+                }
+                &__title {
+                    font-family: 'Bellefair', serif;
+                    font-size: $font-size-heading-primary;
+                    font-weight: 400;
+                    color: $color-tertiary;
+                    text-transform: uppercase;
+                    margin: 24px 0;
+                }
+                &__paragraph {
+                    line-height: 32px;
+                    max-width: 444px;
+                }
+            }
+            &__explore {
+                align-self: flex-end;
+                button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    outline: none;
+                    background: none;
+                    border: none;
                     width: 274px;
                     height: 274px;
-                    background-color: $color-hover-button;
-                    position: absolute;
+                    background-color: $color-tertiary;
                     border-radius: 100%;
-                    z-index: -1;
-                    transition: all 0.3s;
-                }
-                &:hover::after {
-                    width: 450px;
-                    height: 450px;
-                }
-                a {
-                    font-size: $font-size-heading-quaternary;
-                    font-family: 'Bellefair', serif;
-                    display: block;
-                    color: $color-primary;
-                    letter-spacing: 2px;
-                    text-decoration: none;
+                    position: relative;
+                    cursor: pointer;
+                    &:after {
+                        content: '';
+                        display: block;
+                        width: 274px;
+                        height: 274px;
+                        background-color: $color-hover-button;
+                        position: absolute;
+                        border-radius: 100%;
+                        z-index: -1;
+                        transition: all 0.3s;
+                    }
+                    &:hover::after {
+                        width: 450px;
+                        height: 450px;
+                    }
+                    a {
+                        font-size: $font-size-heading-quaternary;
+                        font-family: 'Bellefair', serif;
+                        display: block;
+                        color: $color-primary;
+                        letter-spacing: 2px;
+                        text-decoration: none;
+                    }
                 }
             }
         }
     }
 }
+
