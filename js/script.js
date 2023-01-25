@@ -1,4 +1,4 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
     $('.owl-carousel').owlCarousel({
         smartSpeed: 1200,
         items:1,
