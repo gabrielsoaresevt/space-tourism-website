@@ -1,5 +1,7 @@
 #home-page {
     .main-content {
+        align-self: flex-end;
+        margin-bottom: 14vh;
         .hero {
             .container {
                 display: flex;
@@ -21,10 +23,6 @@
                     color: $color-tertiary;
                     text-transform: uppercase;
                     margin: 24px 0;
-                }
-                &__paragraph {
-                    line-height: 32px;
-                    max-width: 444px;
                 }
             }
             &__explore {

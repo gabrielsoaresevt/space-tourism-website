@@ -1,0 +1,14 @@
+.subtitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: $font-size-subheading-primary;
+    font-weight: 400;
+    color: $color-tertiary;
+    letter-spacing: 4.72px;
+    text-transform: uppercase;
+    margin: 10px 0 65px 0;
+    span {
+        color: $color-transparent-tertiary;
+        font-weight: 800;
+        margin-right: 28px;
+    }
+}

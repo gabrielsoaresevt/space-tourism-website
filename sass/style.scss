@@ -11,6 +11,8 @@
 // Components
 
 @import "./components/_page-background-image";
+@import "./components/_subtitle";
+@import "./components/_paragraph";
 
 // Layout
 
@@ -23,10 +25,10 @@
 
 @import "./pages/_landing-page";
 @import "./pages/_destination-page";
+@import "./pages/_crew-page";
 
 // Vendors
 
 @import "./vendors/_normalize";
-
 
 //node-sass -w --output-style compressed sass/style.scss css/style.css

@@ -1,0 +1,38 @@
+#crew-page {
+    .main-content {
+        .crew {
+            &__slideshow {
+                &__item {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    &__text {
+                        &__employee {
+                            margin-top: 170px;
+                            &__role {
+                                font-family: 'Bellefair', serif;
+                                font-size: $font-size-heading-quaternary;;
+                                font-weight: regular;
+                                text-transform: uppercase;
+                                color: $color-transparent-tertiary;
+                            }
+                            &__name {
+                                font-family: 'Bellefair';
+                                font-size: $font-size-heading-tertiary;
+                                font-weight: 400;
+                                text-transform: uppercase;
+                                color: $color-tertiary;
+                                margin: 10px 0 20px 0;
+                            }
+                        }
+                    }
+                    &__img {
+                        img {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
