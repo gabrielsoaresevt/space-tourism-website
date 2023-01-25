@@ -105,7 +105,10 @@
         display: block;
         padding-bottom: 12px;
         border-bottom: 3px solid transparent;
-        transition: all 0.175s;
+        transition: all 0.225s;
+        &:hover {
+            border-bottom: 3px solid $color-hover;
+        }
     }
 
     .owl-dots .owl-dot.active button {
