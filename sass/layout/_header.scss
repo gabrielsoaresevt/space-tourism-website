@@ -45,7 +45,7 @@
             height: 100%;
             &__item {
                 display: flex;
-                align-items: center;
+                align-items: stretch;
                 cursor: pointer;
                 position: relative;
                 &.active {
@@ -83,6 +83,7 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    height: 100%;
                     gap: 11px;
                     span {
                         font-weight: 700;
