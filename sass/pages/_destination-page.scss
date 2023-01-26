@@ -1,12 +1,13 @@
 #destination-page {
     .main-content {
+        margin-bottom: 14vh;
         .planets {
             &__slideshow {
                 &__item {
                     display: flex;
                     justify-content: space-between;
                     align-items: flex-end;
-
+                    max-width: 1113.59px;
                     &__img {
                         flex: 1 1;
                         display: flex;
@@ -19,7 +20,6 @@
                         }                       
                     }
                     &__text {
-                        // flex: 1 1;
                         &__title {
                             font-family: 'Bellefair', serif;
                             font-size: $font-size-heading-secondary;
