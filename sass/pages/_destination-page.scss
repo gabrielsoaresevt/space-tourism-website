@@ -8,6 +8,7 @@
                     justify-content: space-between;
                     align-items: flex-end;
                     max-width: 1113.59px;
+                    position: relative;
                     &__img {
                         flex: 1 1;
                         display: flex;
@@ -97,7 +98,6 @@
             border-bottom: 3px solid $color-hover;
         }
     }
-
     .owl-dots .owl-dot.active button {
         color: $color-tertiary;
         border-bottom: 3px solid $color-tertiary;
