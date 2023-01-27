@@ -2,6 +2,12 @@
     .main-content {
         .crew {
             position: relative;
+            &__subtitle {
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin: 10px 0;
+            }
             &__slideshow {
                 &__item {
                     display: flex;
@@ -10,12 +16,6 @@
                     max-width: 1113.59px;
                     height: 712px;
                     &__text {
-                        &__subtitle {
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            margin: 10px 0;
-                        }
                         &__employee {
                             margin-bottom: 225px;
                             &__role {
