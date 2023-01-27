@@ -1,6 +1,7 @@
 #crew-page {
     .main-content {
         .crew {
+            position: relative;
             &__slideshow {
                 &__item {
                     display: flex;
