@@ -1,28 +1,28 @@
 #home-page {
-    background-color: $color-primary;
-    background-image: url("./../assets/home/background-home-desktop.jpg");
-    background-repeat: no-repeat;
+    background: $color-primary 
+                url("./../assets/home/background-home-desktop.jpg") 
+                no-repeat 
+                center center;
     background-size: cover;
-    background-position: center center;
 }
 #destination-page {
-    background-color: $color-primary;
-    background-image: url("./../assets/destination/background-destination-desktop.jpg");
-    background-repeat: no-repeat;
+    background: $color-primary 
+                url("./../assets/destination/background-destination-desktop.jpg") 
+                no-repeat 
+                center center;
     background-size: cover;
-    background-position: center center;
 }
 #crew-page {
-    background-color: $color-primary;
-    background-image: url("./../assets/crew/background-crew-desktop.jpg");
-    background-repeat: no-repeat;
+    background: $color-primary 
+                url("./../assets/crew/background-crew-desktop.jpg") 
+                no-repeat 
+                center center;
     background-size: cover;
-    background-position: center center;
 }
 #technology-page {
-    background-color: $color-primary;
-    background-image: url("./../assets/technology/background-technology-desktop.jpg");
-    background-repeat: no-repeat;
+    background: $color-primary 
+                url("./../assets/technology/background-technology-desktop.jpg") 
+                no-repeat 
+                center center;
     background-size: cover;
-    background-position: center center;
 }
