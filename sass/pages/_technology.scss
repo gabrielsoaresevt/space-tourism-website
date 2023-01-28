@@ -103,7 +103,7 @@
         }
     }
 }
-@media (min-width: 1441px) {
+@media (min-width: $breakpoint-xxl) {
     #technology-page {
         .main-content {
             margin-bottom: 12vh;

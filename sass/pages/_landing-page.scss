@@ -68,7 +68,7 @@
         }
     }
 }
-@media (min-width: 1441px) {
+@media (min-width: $breakpoint-xxl) {
     #home-page {
         .main-content {
             align-self: center;
