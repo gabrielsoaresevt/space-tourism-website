@@ -103,3 +103,37 @@
         }
     }
 }
+@media (min-width: 1441px) {
+    #technology-page {
+        .main-content {
+            margin-bottom: 12vh;
+            .technology {
+                .container {
+                    &.technology__slideshow {
+                        padding-left: 0px;
+                    }
+                }
+                &__slideshow {
+                    &__item {
+                        max-width: 1200px;
+                    }
+                }
+            }
+        }
+        .owl-carousel {
+            &.owl-loaded {
+                max-width: 1200px;
+            }
+            .owl-dots {
+                width: auto;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -8%;
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+            }
+        }
+    }
+}

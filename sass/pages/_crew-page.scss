@@ -1,7 +1,9 @@
 #crew-page {
     .main-content {
         .crew {
-            position: relative;
+            .container {
+                position: relative;
+            }
             &__subtitle {
                 position: absolute;
                 top: 0;

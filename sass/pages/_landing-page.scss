@@ -68,4 +68,17 @@
         }
     }
 }
-
+@media (min-width: 1441px) {
+    #home-page {
+        .main-content {
+            align-self: center;
+            margin-bottom: 12vh;
+            .hero {
+                &__explore {
+                    align-self: center;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+    }    
+}
