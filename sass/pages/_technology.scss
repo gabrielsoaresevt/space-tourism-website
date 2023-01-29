@@ -27,7 +27,7 @@
                     &__text {
                         &__subtitle {
                             font-family: 'Barlow Condensed', sans-serif;
-                            font-size: $font-size-nav;
+                            font-size: var(--font-size-nav);
                             font-weight: 400;
                             color: $color-secondary;
                             text-transform: uppercase;
@@ -35,7 +35,7 @@
                         }
                         &__title {
                             font-family: 'Bellefair', serif;
-                            font-size: $font-size-heading-tertiary;
+                            font-size: var(--font-size-heading-tertiary);
                             font-weight: 400;
                             color: $color-tertiary;
                             text-transform: uppercase;
@@ -79,7 +79,7 @@
                 }
                 button {
                     font-family: 'Bellefair', serif;
-                    font-size: $font-size-heading-quaternary;
+                    font-size: var(--font-size-heading-quaternary);
                     font-weight: 400;
                     color: $color-tertiary;
                     background: none;

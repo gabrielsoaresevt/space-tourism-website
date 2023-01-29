@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     font-family: 'Barlow', sans-serf;
     font-weight: 400;
-    font-size: $font-size-body;
+    font-size: var(--font-size-body);
     color: $color-secondary;
     overflow-x: hidden;
 }

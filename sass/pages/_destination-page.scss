@@ -23,7 +23,7 @@
                     &__text {
                         &__title {
                             font-family: 'Bellefair', serif;
-                            font-size: $font-size-heading-secondary;
+                            font-size: var(--font-size-heading-secondary);
                             font-weight: 400;
                             color: $color-tertiary;
                             text-transform: uppercase;
@@ -42,7 +42,7 @@
                                 flex: 1 1;
                                 span {
                                     font-family: 'Barlow Condensed', sans-serif;
-                                    font-size: $font-size-subheading-secondary;
+                                    font-size: var(--font-size-subheading-secondary);
                                     font-weight: 400;
                                     letter-spacing: 2.36px;
                                     color: $color-secondary;
@@ -51,7 +51,7 @@
                                 }
                                 p {
                                     font-family: 'Bellefair', serif;
-                                    font-size: $font-size-subheading-primary;
+                                    font-size: var(--font-size-subheading-primary);
                                     color: $color-tertiary;
                                 }
                             }
@@ -81,7 +81,7 @@
                 }
                 button {
                     font-family: 'Barlow Condensed', sans-serif;
-                    font-size: $font-size-nav;
+                    font-size: var(--font-size-nav);
                     font-weight: 400;
                     color: $color-secondary;
                     background: none;

@@ -1,6 +1,6 @@
 .subtitle {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: $font-size-subheading-primary;
+    font-size: var(--font-size-subheading-primary);
     font-weight: 400;
     color: $color-tertiary;
     letter-spacing: 4.72px;

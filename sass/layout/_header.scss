@@ -73,7 +73,7 @@
                 }
                 a {
                     font-weight: 400;
-                    font-size: $font-size-nav;
+                    font-size: var(--font-size-nav);
                     font-family: 'Barlow Condensed', sans-serif;
                     color: $color-tertiary;
                     text-decoration: none;
@@ -105,7 +105,6 @@
                 gap: 37px;
                 &__item {
                     a {
-                        font-family: $font-size-nav;
                         letter-spacing: 2.36px;
                         span {
                             display: none;

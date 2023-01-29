@@ -10,7 +10,7 @@
             &__text {
                 &__subtitle {
                     font-family: 'Barlow Condensed', serif;
-                    font-size: $font-size-heading-quinary;
+                    font-size: var(--font-size-heading-quinary);
                     font-weight: 400;
                     color: $color-secondary;
                     letter-spacing: 4.75px;
@@ -18,7 +18,7 @@
                 }
                 &__title {
                     font-family: 'Bellefair', serif;
-                    font-size: $font-size-heading-primary;
+                    font-size: var(--font-size-heading-primary);
                     font-weight: 400;
                     color: $color-tertiary;
                     text-transform: uppercase;
@@ -56,7 +56,7 @@
                         height: 450px;
                     }
                     a {
-                        font-size: $font-size-heading-quaternary;
+                        font-size: var(--font-size-heading-quaternary);
                         font-weight: 400;
                         font-family: 'Bellefair', serif;
                         display: block;
@@ -103,11 +103,7 @@
                 }
                 &__text {
                     &__subtitle {
-                        font-size: $font-size-heading-quinary;
                         letter-spacing: 3.38px;
-                    }
-                    &__title {
-                        font-size: $font-size-heading-primary;
                     }
                 }
                 &__explore {
