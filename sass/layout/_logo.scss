@@ -5,3 +5,13 @@
     flex-direction: column;
     height: 96px;
 }
+@media (max-width: $breakpoint-xl) {
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: 96px;
+    }
+}

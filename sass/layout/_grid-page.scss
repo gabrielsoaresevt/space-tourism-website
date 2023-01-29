@@ -19,18 +19,14 @@ body {
 @media (max-width: $breakpoint-xl) {
     body {
         padding-top: 0;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 96px auto;
-        justify-content: space-between;
+        grid-template-columns: 1fr 4fr;
         grid-template-areas: "logo header"
         "main main";
         .logo {
             grid-area: logo;
-            border: 2px solid orange;
         }
         header {
             grid-area: header;
-            border: 2px solid orange;
         }
         main {
             margin-top: 8vh; 

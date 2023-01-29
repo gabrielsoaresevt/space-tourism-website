@@ -92,3 +92,27 @@
         }
     }
 }
+@media (max-width: $breakpoint-xl) {
+    .header {
+        &:after {
+            width: 80%;
+        }
+        &:before {
+            display: none;
+        }
+        &__menu {
+            &__list {
+                gap: 37px;
+                &__item {
+                    a {
+                        font-family: $font-size-nav;
+                        letter-spacing: 2.36px;
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
