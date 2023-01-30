@@ -95,7 +95,8 @@
 @media (max-width: $breakpoint-xl) {
     .header {
         &:after {
-            width: 70%;
+            width: 100%;
+            max-width: 450px;
         }
         &:before {
             display: none;
