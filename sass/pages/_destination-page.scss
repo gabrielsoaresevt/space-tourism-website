@@ -30,7 +30,6 @@
                         }
                         &__paragraph {
                             margin: 18px 0 54px 0;
-                            max-width: 444px;
                             line-height: 32px;
                         }
                         &__more {
@@ -51,6 +50,7 @@
                                 }
                                 p {
                                     font-family: 'Bellefair', serif;
+                                    font-weight: 400;
                                     font-size: var(--font-size-subheading-primary);
                                     color: $color-tertiary;
                                 }
@@ -101,6 +101,46 @@
                     color: $color-tertiary;
                     border-bottom: 3px solid $color-tertiary;
                 }
+            }
+        }
+    }
+}
+@media (max-width: $breakpoint-xl) {
+    #destination-page {
+        .main-content {
+            margin-bottom: 8vh;
+            .planets {
+                &__slideshow {
+                    &__item {
+                        gap: 100px;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+                        &__img {
+                            padding-right: 0px;
+                            align-items: center;
+                            img {
+                                width: 300px;
+                                height: 300px;
+                            }                       
+                        }
+                        &__text {
+                            &__paragraph {
+                                max-width: 573px;
+                            }
+                            &__more {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .owl-carousel {
+            .owl-dots {
+                right: 0;
+                left: 0;
+                top: 45%;
             }
         }
     }
