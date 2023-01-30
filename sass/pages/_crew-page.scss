@@ -95,3 +95,62 @@
         }
     }
 }
+@media (max-width: $breakpoint-xl) {
+    #crew-page {
+        .main-content {
+            text-align: center;
+            .crew {
+                &__subtitle {
+                    margin-left: 32px;
+                }
+                &__slideshow {
+                    &__item {
+                        align-items: center;
+                        height: auto;
+                        flex-direction: column;
+                        height: 999.19px;
+                        &__text {
+                            &__employee {
+                                margin: 100px 0;
+                                &__paragraph {
+                                    max-width: 592px;
+                                }
+                            }
+                        }
+                        &__img {
+                            img {
+                                &#commander {
+                                    height: 572px;
+                                }
+                                &#mission-specialist {
+                                    height: 532px;
+                                }
+                                &#pilot {
+                                    height: 532px;
+                                }
+                                &#flight-engineer {
+                                    height: 532px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .owl-carousel {
+            .owl-dots {
+                left: 0;
+                right: 0;
+                top: 37%;
+                height: 30px;
+                .owl-dot {
+                    margin: 0 15px;
+                    span {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
