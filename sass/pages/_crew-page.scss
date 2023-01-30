@@ -112,6 +112,9 @@
                         &__text {
                             &__employee {
                                 margin: 100px 0;
+                                &__name {
+                                    font-size: var(--font-size-subheading-quaternary);
+                                }
                                 &__paragraph {
                                     max-width: 592px;
                                 }
