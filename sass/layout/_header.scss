@@ -22,6 +22,7 @@
         z-index: -1;
         background-color: $color-background-header;
         backdrop-filter: blur(35px);
+        -webkit-backdrop-filter: blur(35px);
     }
     &:before {
         content: '';
@@ -145,6 +146,7 @@
             align-items: flex-end;
             background-color: $color-background-header;
             backdrop-filter: blur(35px);
+            -webkit-backdrop-filter: blur(35px);
             transform: translateX(100%);
             transition: all 0.3s ease-in-out;
             &.active {
