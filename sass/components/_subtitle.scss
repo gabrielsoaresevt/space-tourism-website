@@ -6,9 +6,19 @@
     letter-spacing: 4.72px;
     text-transform: uppercase;
     margin: 10px 0 65px 0;
+    text-align: center;
     span {
         color: $color-transparent-tertiary;
         font-weight: 800;
         margin-right: 28px;
+    }
+}
+@media (max-width: $breakpoint-md) {
+    .subtitle {
+        margin: 10px 0 40px 0;
+        text-align: center;
+        span {
+            margin-right: 15px;
+        }
     }
 }

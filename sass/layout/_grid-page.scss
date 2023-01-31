@@ -30,7 +30,13 @@ body {
         }
         main {
             margin-top: 5vh; 
-            grid-area: main;
+        }
+    }
+}
+@media (max-width: $breakpoint-md) {
+    body {
+        main {
+            margin-top: 0vh; 
         }
     }
 }
