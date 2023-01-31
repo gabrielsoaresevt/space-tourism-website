@@ -27,3 +27,20 @@
     }
 }
 
+@media (max-width: $breakpoint-md) {
+    :root {
+        --font-size-heading-primary: 8.0rem;
+        --font-size-heading-quaternary: 2.0rem;
+        // --font-size-heading-secondary: 8.0rem;
+        // --font-size-heading-quinary: 2.0rem;
+
+        --font-size-subheading-primary: 1.6rem;
+        // --font-size-subheading-secondary: 1.4rem;
+        // --font-size-subheading-tertiary: 2.4rem;
+        // --font-size-subheading-quaternary: 4.0rem;
+
+        // --font-size-nav: 1.4rem;
+        --font-size-body: 1.5rem;
+    }
+}
+

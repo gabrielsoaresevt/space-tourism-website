@@ -17,3 +17,8 @@
         margin: 0 auto;
     }
 }
+@media (max-width: $breakpoint-md) {
+    .container {
+        padding: 0 24px;
+    }
+}

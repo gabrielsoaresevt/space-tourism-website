@@ -127,5 +127,34 @@
         }
     }
 } 
+@media (max-width: $breakpoint-md) {
+    #home-page {
+        .main-content {
+            margin-top: 5vh;
+            margin-bottom: 10vh;
+            .hero {
+                &__text {
+                    &__subtitle {  
+                        letter-spacing: 2.7px;
+                    }
+                }
+                &__explore {
+                    button {
+                        width: 150px;
+                        height: 150px;
+                        &:after {
+                            width: 150px;
+                            height: 150px;
+                        }
+                        &:hover::after {
+                            width: 220px;
+                            height: 220px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 

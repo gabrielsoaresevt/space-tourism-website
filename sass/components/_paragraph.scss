@@ -8,3 +8,8 @@
         text-align: center;
     }
 }
+@media (max-width: $breakpoint-md) {
+    .pararagraph {
+        line-height: 28px;
+    }
+}
