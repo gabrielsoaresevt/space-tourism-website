@@ -157,3 +157,77 @@
         }
     }
 }
+@media (max-width: $breakpoint-md) {
+    @media (max-width: $breakpoint-xl) {
+        #crew-page {
+            .main-content {
+                margin-bottom: 10vh;
+                .crew {
+                    &__subtitle {
+                        margin-left: 0px;
+                        left: 0;
+                        right: 0;
+                    }
+                    &__slideshow {
+                        &__item {
+                            height: auto;
+                            height: auto;
+                            gap: 70px;
+                            &__text {
+                                &__employee {
+                                    margin: 0 0;
+                                    &__role {
+                                        font-size: 16px !important;
+                                    }
+                                    &__name {
+                                        font-size: 24px !important;
+                                    }
+                                    &__paragraph {
+                                        max-width: 592px;
+                                    }
+                                }
+                            }
+                            &__img {
+                                border-bottom: 1px solid $color-transparent-tertiary;
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                margin-top: 70px;
+                                order: -1;
+                                img {
+                                    &#commander {
+                                        height: 223px;
+                                    }
+                                    &#mission-specialist {
+                                        height: 223px;
+                                    }
+                                    &#pilot {
+                                        height: 223px;
+                                    }
+                                    &#flight-engineer {
+                                        height: 223px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .owl-carousel {
+                .owl-dots {
+                    left: 0;
+                    right: 0;
+                    top: 48%;
+                    height: 30px;
+                    .owl-dot {
+                        margin: 0 10px;
+                        span {
+                            width: 12px;
+                            height: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
