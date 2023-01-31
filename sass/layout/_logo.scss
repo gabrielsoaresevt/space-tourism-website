@@ -10,6 +10,12 @@
         display: block;
     }
 }
+@media (max-width: $breakpoint-xl) {
+    .logo {
+        align-items: flex-start;
+        padding-left: 24px;
+    }
+}
 @media (max-width: $breakpoint-md) {
     .logo {
         img {
