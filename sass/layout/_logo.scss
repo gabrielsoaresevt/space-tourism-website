@@ -4,14 +4,17 @@
     align-items: center;
     flex-direction: column;
     height: 96px;
+    img {
+        width: 48px;
+        height: 48px;
+        display: block;
+    }
 }
-@media (max-width: $breakpoint-xl) {
+@media (max-width: $breakpoint-md) {
     .logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: auto;
-        width: 96px;
+        img {
+            width: 40px;
+            height: 40px;
+        }
     }
 }
