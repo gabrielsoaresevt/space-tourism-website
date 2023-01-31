@@ -56,3 +56,33 @@
         background-size: cover;
     }
 }
+@media (max-width: $breakpoint-md) {
+    #home-page {
+        background: $color-primary 
+                    url("./../assets/home/background-home-mobile.jpg") 
+                    no-repeat 
+                    center center;
+        background-size: cover;
+    }
+    #destination-page {
+        background: $color-primary 
+                    url("./../assets/destination/background-destination-mobile.jpg") 
+                    no-repeat 
+                    center center;
+        background-size: cover;
+    }
+    #crew-page {
+        background: $color-primary 
+                    url("./../assets/crew/background-crew-mobile.jpg") 
+                    no-repeat 
+                    center center;
+        background-size: cover;
+    }
+    #technology-page {
+        background: $color-primary 
+                    url("./../assets/technology/background-technology-mobile.jpg") 
+                    no-repeat 
+                    center center;
+        background-size: cover;
+    }
+}
