@@ -144,15 +144,11 @@
             flex-direction: column;
             align-items: flex-end;
             background-color: $color-background-header;
-            backdrop-filter: blur(0px);
-            visibility: hidden;
+            backdrop-filter: blur(35px);
             transform: translateX(100%);
-            transition: transform 0.3s;
-            transition: backdrop-filter 0.4s ease-out;
+            transition: all 0.3s ease-in-out;
             &.active {
-                visibility: visible;
                 transform: translateX(0%);
-                backdrop-filter: blur(35px);
             }
             .header__icon--close {
                 width: 19px;
