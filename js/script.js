@@ -1,4 +1,4 @@
-// jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
     class MobileNavBar {
         constructor(mobileMenu, navList) {
             this.mobileMenu = document.querySelectorAll(mobileMenu);
@@ -28,7 +28,7 @@
     );
 
     mobileNavBar.init();
-
+    
     $('.planets__slideshow.owl-carousel').owlCarousel({
         smartSpeed: 1200,
         items:1,
@@ -54,4 +54,4 @@
         dotsData: true,
         margin: 50
     });
-// });
+});
