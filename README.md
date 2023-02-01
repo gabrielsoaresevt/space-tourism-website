@@ -54,7 +54,7 @@ On track!
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- JS Events
+- JavaScript Events
 - Owl Carousel
 - Jquery
 
