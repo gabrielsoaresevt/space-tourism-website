@@ -57,10 +57,11 @@ On track!
 - JavaScript Events
 - Owl Carousel
 - Jquery
+- JSON Data
 
 ### What I learned
 
-Using some Jquery functions together with plugins like Owl Carousel, as well as styling and modifying slideshows.
+Using some Jquery functions together with plugins like Owl Carousel, as well as styling and modifying slideshows. Fetch, process and display data from a json file
 
 ## Author
 
