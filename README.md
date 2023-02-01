@@ -7,7 +7,7 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Status](#status)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -30,21 +30,21 @@ On track!
 
 ### Screenshots
 
-### Home
-![](./screenshot.jpg)
+#### Home
+![home-page](https://user-images.githubusercontent.com/64991217/216032731-a5ec8610-85d5-4e0a-be96-3a401b6b94b2.png)
 
-### Destination
-![](./screenshot.jpg)
+#### Destination
+![destination-page](https://user-images.githubusercontent.com/64991217/216032730-9f41e4c4-f158-47eb-bb75-bd1b32f34255.png)
 
-### Crew
-![](./screenshot.jpg)
+#### Crew
+![crew-page](https://user-images.githubusercontent.com/64991217/216032721-7dd488fa-6017-47f2-8477-df540e9174bd.png)
 
-### Technology
-![](./screenshot.jpg)
+#### Technology
+![techonology-page](https://user-images.githubusercontent.com/64991217/216032680-bb287c60-51b3-48d1-81fa-5334b102a1e1.png)
 
-### Links
+#### Links
 
-- Solution URL: [Add solution URL here](https://gabrielsoaresevt.github.io/space-tourism-website)
+- Solution URL: [Space Tourism Website](https://gabrielsoaresevt.github.io/space-tourism-website)
 
 ## My process
 
