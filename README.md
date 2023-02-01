@@ -31,7 +31,7 @@ On track!
 ### Screenshots
 
 #### Home
-![home-page](https://user-images.githubusercontent.com/64991217/216032731-a5ec8610-85d5-4e0a-be96-3a401b6b94b2.png)
+![home-page](https://user-images.githubusercontent.com/64991217/216036894-c340509b-762d-4b13-a893-3b9057eb3cfe.png)
 
 #### Destination
 ![destination-page](https://user-images.githubusercontent.com/64991217/216032730-9f41e4c4-f158-47eb-bb75-bd1b32f34255.png)
