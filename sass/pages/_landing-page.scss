@@ -3,6 +3,7 @@
         align-self: flex-end;
         margin-bottom: 14vh;
         .hero {
+            padding-bottom: 4px;
             .container {
                 display: flex;
                 justify-content: space-between;
@@ -10,7 +11,7 @@
             &__text {
                 &__subtitle {
                     font-family: 'Barlow Condensed', serif;
-                    font-size: var(--font-size-heading-quinary);
+                    font-size: var(--font-size-subheading-primary);
                     font-weight: 400;
                     color: $color-secondary;
                     letter-spacing: 4.75px;
