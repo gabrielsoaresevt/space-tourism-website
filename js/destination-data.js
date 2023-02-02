@@ -1,7 +1,8 @@
 fetch("./data.json").then((response) => {
     response.json().then((datas) => {
         datas.destinations.map((destination) => {
-            $(".owl-carousel").trigger('add.owl.carousel', [`<div class="planets__slideshow__item" data-dot="<button>${destination.name}</button>">
+            $(".owl-carousel").trigger('add.owl.carousel', [`
+            <div class="planets__slideshow__item" data-dot="<button>${destination.name}</button>">
                 <div class="planets__slideshow__item__img">
                     <img src="${destination.images.png}" alt="Image Moon">
                 </div>
