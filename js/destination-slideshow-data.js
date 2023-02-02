@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
         margin: 50
     });
     
-    fetch("./../data.json").then((response) => {
+    fetch("./data.json").then((response) => {
         response.json().then((datas) => {
             datas.destinations.map((destination) => {
                 $(".owl-carousel").trigger('add.owl.carousel', [`

@@ -1,14 +1,14 @@
 jQuery(document).ready(function($) {
     $('.technology__slideshow.owl-carousel').owlCarousel({
         smartSpeed: 1200,
-        items:1,
+        items: 1,
         nav: false,
         dots: true,
         dotsData: true,
         margin: 50
     });
     
-    fetch("./../data.json").then((response) => {
+    fetch("./data.json").then((response) => {
         response.json().then((datas) => {
             datas.technology.map((vehicle) => {
                 $(".owl-carousel").trigger('add.owl.carousel', [`
