@@ -170,9 +170,10 @@
                     }
                     &__slideshow {
                         &__item {
-                            height: auto;
-                            height: auto;
+                            justify-content: flex-start;
                             gap: 70px;
+                            height: 700px;
+                            border: 2px solid orange;
                             &__text {
                                 &__employee {
                                     margin: 0 0;
@@ -217,7 +218,7 @@
                 .owl-dots {
                     left: 0;
                     right: 0;
-                    top: 48%;
+                    top: 44%;
                     height: 30px;
                     .owl-dot {
                         margin: 0 10px;

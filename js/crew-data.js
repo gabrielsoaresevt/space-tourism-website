@@ -13,7 +13,7 @@ fetch("./data.json").then((response) => {
                     </div>
                 </div>
                 <div class="crew__slideshow__item__img">
-                    <img src="${person.images.png}" alt="${person.role} Image">
+                    <img id="${person.role.replace(' ', '-').toLowerCase()}" src="${person.images.png}" alt="${person.role} Image">
                 </div>
             </div>`]).trigger("refresh.owl.carousel");
         });
