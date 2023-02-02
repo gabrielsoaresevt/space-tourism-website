@@ -66,4 +66,4 @@ Using some Jquery functions together with plugins like Owl Carousel, as well as 
 ## Author
 
 - Frontend Mentor - [@gabrielsoaresevt](https://www.frontendmentor.io/profile/gabrielsoaresevt)
-- LinkedIn - [@gabrielsoaresevangelista](https://www.linkedin.com/in/gabriel-soares-a971391b1/)
+- LinkedIn - [@gabrielsoaresevangelista](https://www.linkedin.com/in/gabriel-soares-evangelista)
