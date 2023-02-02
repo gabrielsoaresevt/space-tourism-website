@@ -130,6 +130,7 @@
             width: 24px;
             height: auto;
             display: block;
+            cursor: pointer;
         }
         &:after {
             display: none;
@@ -157,6 +158,7 @@
                 height: 19px;
                 display: block;
                 margin: 40px 25px 70px;
+                cursor: pointer;
             }
             &__list {
                 flex-direction: column;
