@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Status
 
-On track!
+Done!
 
 ### Screenshots
 
