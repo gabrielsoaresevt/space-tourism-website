@@ -2,9 +2,10 @@ body {
     padding-top: 4.0rem;
     display: grid;
     grid-template-columns: 2fr 16fr;
-    grid-template-rows: 96px auto;
+    grid-template-rows: 96px auto auto;
     grid-template-areas: "logo header"
-    "logo main";
+    "logo main"
+    "development development";
     .logo {
         grid-area: logo;
     }
@@ -15,13 +16,17 @@ body {
         margin-top: 8vh; 
         grid-area: main;
     }
+    .development {
+        grid-area: development;
+    }
 }
 @media (max-width: $breakpoint-xl) {
     body {
         padding-top: 0;
-        grid-template-columns: 1fr 4fr;
+        grid-template-columns: 1fr 4fr auto;
         grid-template-areas: "logo header"
-        "main main";
+        "main main"
+        "development development";
         .logo {
             grid-area: logo;
         }
