@@ -44,7 +44,7 @@ Done!
 
 #### Links
 
-- Solution URL: [Space Tourism](https://the-best-space-tourism.netlify.app)
+- Solution URL: [Space Tourism](https://the-future-space-tourism.netlify.app/)
 
 ## My process
 
